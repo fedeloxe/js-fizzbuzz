@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    height: 600px;
+    margin: 50px auto;
+}
+
+.box-blue{
+    background-color: blue;
+    width: 20px;
+}
+
+.box-red{
+    background-color: red;
+    width: 20px;
+}
+
+.box-yellow{
+    background-color: yellow;
+    width: 20px;
+}
+
+body{
+    background-color: black;
+}
