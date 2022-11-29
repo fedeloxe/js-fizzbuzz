@@ -4,24 +4,26 @@ let element;
 
 for(let i = 1; i<=100; i++){
 
+
     if(i % 3 == 0 && i % 5 ==0){
         console.log('fizzbuzz')
+        element = `<div class="box box-purple">Fizzbuzz</div>`
     }
 
     else if(i % 3 ==0){
         console.log('fizz')
-        let element = `<div class="box box-yellow"> ${i} </div>`
+        element = `<div class="box box-yellow">Fizz</div>`
     }
 
     else if(i % 5 ==0){
         console.log('buzz')
-        let element = `<div class="box box-red"> ${i} </div>`
+        element = `<div class="box box-red"> Buzz</div>`
 
     }
 
     else{
         console.log(i)
-        let element = `<div class="box box-blue"> ${i} </div>`
+        element = `<div class="box box-blue">${i}</div>`
     }  
     
     container.innerHTML+= element
