@@ -1,0 +1,4 @@
+1- scrivi un programma che stampi numeri da 1 a 100
+2- per i multipli di 3 sostituisco il valore con fizz 
+3- per i multpli di 5 sostituisco il valore con buzz
+4- per i multipli sia  di 3 che di 5  stampo fizzbuzz
